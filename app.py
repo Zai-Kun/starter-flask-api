@@ -1,9 +1,9 @@
 from flask import Flask
-import re_gpt
+from datetime import date, datetime
 
 app = Flask(__name__)
 
 
 @app.route("/")
 def hello_world():
-    return str(re_gpt)
+    return datetime.now().strftime("%Y-%m-%d %H:%M:%S")
