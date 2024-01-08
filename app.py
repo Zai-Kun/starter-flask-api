@@ -1,8 +1,9 @@
 from flask import Flask
-import os
+import re_gpt
 
 app = Flask(__name__)
 
-@app.route('/')
+
+@app.route("/")
 def hello_world():
-    return 'hi'
+    return str(re_gpt)
