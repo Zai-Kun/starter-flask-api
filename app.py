@@ -1,5 +1,5 @@
 from flask import Flask
-from datetime import date, datetime
+from datetime import datetime
 
 app = Flask(__name__)
 

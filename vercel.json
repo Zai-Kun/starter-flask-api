@@ -1,0 +1,8 @@
+{
+  "functions": {
+    "*.py": {
+      "runtime": "@vercel/python"
+    }
+  },
+  "redirects": [{ "source": "/(.*)", "destination": "/", "permanent": false }]
+}
