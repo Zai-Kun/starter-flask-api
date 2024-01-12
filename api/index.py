@@ -1,4 +1,5 @@
 from flask import Flask
+import time
 from datetime import datetime
 
 app = Flask(__name__)
@@ -11,4 +12,5 @@ def hello_world():
 
 @app.route("/<_idk>")
 def idk(_idk):
-    return _idk
+    time.sleep(15)
+    return _idk + "after 25 secs"
