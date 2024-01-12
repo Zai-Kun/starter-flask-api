@@ -13,4 +13,4 @@ def hello_world():
 @app.route("/<_idk>")
 def idk(_idk):
     time.sleep(15)
-    return _idk + "after 25 secs"
+    return _idk + "after 15 secs"
