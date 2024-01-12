@@ -1,8 +1,5 @@
 {
-  "functions": {
-    "*.py": {
-      "runtime": "python@3.9"
-    }
-  },
-  "redirects": [{ "source": "/(.*)", "destination": "/", "permanent": false }]
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/api/index" }
+  ]
 }
